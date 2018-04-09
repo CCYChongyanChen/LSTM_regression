@@ -1,7 +1,7 @@
 # LSTM_Linear_regression
 a implement of LSTM using Keras for time series prediction regression problem
 ### Data
-the data were from UCI data set, this data was using ECG to predict ABP
+the data were from UCI data set. We are using ECG to predict ABP
 
 ### Code
 
