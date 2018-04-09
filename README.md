@@ -6,7 +6,11 @@ the data were from UCI data set. We are using ECG to predict ABP
 ### Code
 
 1）训练数据需是矩阵型</br>
-2）对数据进行规范化，这里用的是最小最大值标准化的规范方法。MinMaxScaler()详情见 https://blog.csdn.net/csmqq/article/details/51461696 </br>
+2）对数据进行规范化，这里试用了最小最大值标准化的规范方法MinMaxScaler()和StandardScaler()方法</br>
+详情见 https://blog.csdn.net/csmqq/article/details/51461696 </br>
+![image](https://github.com/ccy961226/LSTM_regression/edit/master/png/MinMaxscaler.png)
+
+![image](https://github.com/ccy961226/LSTM_regression/edit/master/png/standardscaler.png)
 3）拟合输出使用linear，若有正负值可用tanh</br>
 4) 训练函数compile中的误差函数选用'mse'</br>
 
