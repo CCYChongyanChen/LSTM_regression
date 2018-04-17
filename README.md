@@ -1,7 +1,9 @@
 # LSTM_Linear_regression
 a implement of LSTM using Keras for time series prediction regression problem
 ### Data
-the data were from UCI data set. We are using ECG to predict ABP
+the data were from UCI data set. We are using ECG to predict ABP</br>
+To merge all .csv file into one file, strongly recommend the use of .bat or powershell or .cmd</br>
+.bat is the fastest, about n sesconds. Powershell will cost about half hour.</br>
 
 ### Code
 
